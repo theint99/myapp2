@@ -1,0 +1,40 @@
+div {
+    background-color: orchid;
+}
+
+p {
+    color: white;
+}
+
+div>h2 {
+    color: brown;
+}
+
+div>div>h2 {
+    color: aqua;
+}
+
+h2+p {
+    color: darkgreen;
+}
+
+div+div {
+    background-color: olive;
+}
+
+p+h2 {
+    color: purple;
+}
+
+/* attribute selector */
+input[type=text] {
+    background-color: blue;
+}
+
+button {
+    color: teal;
+}
+
+input[type=submit] {
+    background-color: orange;
+}

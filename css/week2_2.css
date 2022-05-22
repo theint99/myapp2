@@ -1,0 +1,40 @@
+/* External Style */
+h1 {
+    color: chocolate;
+}
+
+h2,
+p {
+    color: darkcyan;
+}
+
+h3>p {
+    color: aqua;
+}
+
+/* descendant child */
+ul li {
+    color: brown;
+}
+
+/* child selector */
+ol>li {
+    color: violet;
+}
+
+p>h4 {
+    color: chartreuse;
+}
+
+
+/* div>p {
+    color: purple;
+} */
+
+div>p {
+    color: red;
+}
+
+div>div>p {
+    color: purple;
+}

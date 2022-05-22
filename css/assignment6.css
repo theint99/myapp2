@@ -1,0 +1,259 @@
+:root {
+    --oc: orange;
+    --wh: aliceblue
+}
+
+@font-face {
+    font-family: 'firstfont';
+    src: url('../font/Rajdhani-Bold.ttf');
+
+}
+
+@font-face {
+    font-family: 'secondfont';
+    src: url('../font/InknutAntiqua-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'thirdfont';
+    src: url('../font/InknutAntiqua-Light.ttf');
+}
+
+@font-face {
+    font-family: 'fourthfont';
+    src: url('../font/Rajdhani-Medium.ttf');
+}
+
+body {
+    background-color: rgb(33, 25, 25);
+}
+
+
+h2 {
+    font-family: 'firstfont';
+    color: var(--oc);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+
+}
+
+h2>span {
+    font-family: 'Rajdhani', sans-serif;
+    color: var(--wh);
+    font-weight: lighter;
+}
+
+h1 {
+    font-family: 'firstfont';
+    color: var(--wh);
+    text-align: center;
+    font-size: 40px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    font-family: 'firstfont';
+    color: var(--oc);
+    text-align: left;
+    font-size: larger;
+}
+
+td {
+    font-family: 'thirdfont';
+    color: var(--wh);
+    font-size: 12px;
+
+}
+
+#two {
+    border: 1px solid var(--wh);
+    margin-bottom: 50px;
+    background-color: rgba(14, 12, 12, 0.918);
+}
+
+h3 {
+    font-family: 'firstfont';
+    color: var(--wh);
+    font-size: 60px;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'thirdfont';
+    color: var(--wh);
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#three {
+    width: 45%;
+    background-color: white;
+    float: left;
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'firstfont';
+    color: var(--oc);
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#three p {
+    font-family: 'firstfont';
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+h5 {
+    font-family: 'firstfont';
+    font-size: 20px;
+    letter-spacing: 2.5px;
+
+}
+
+span {
+    font-family: 'firstfont';
+}
+
+a {
+    font-family: 'fourthfont';
+    text-decoration: none;
+    color: black;
+}
+
+#four {
+
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    padding-top: 80px;
+
+}
+
+
+input[type=text] {
+    font-family: 'fourthfont';
+    background-color: whitesmoke;
+    width: 600px;
+    height: 40px;
+}
+
+input[type=email] {
+    font-family: 'fourthfont';
+    background-color: whitesmoke;
+    width: 600px;
+    height: 40px;
+}
+
+input[type=number] {
+    font-family: 'fourthfont';
+    width: 495px;
+    height: 40px;
+}
+
+select {
+    font-family: 'fourthfont';
+    width: 100px;
+    height: 45px;
+}
+
+input[type=submit] {
+    font-family: 'fourthfont';
+    width: 50px;
+    height: 50px;
+    background-color: var(--oc);
+    color: black;
+
+}
+
+#five {
+    background-color: rgb(236, 221, 221);
+    border: white;
+    height: 1300px;
+    margin-top: -60px;
+}
+
+#five h3 {
+    font-family: 'firstfont';
+    color: black;
+    font-size: 45px;
+    text-align: left;
+    padding: 10px;
+}
+
+#div1_1 {
+    float: left;
+}
+
+#div1_2 {
+    padding-bottom: 200px;
+    /* float: left; */
+}
+
+#div1_2 h4 {
+    font-family: 'firstfont';
+    color: black;
+    font-size: 30px;
+    padding-top: 70px;
+
+}
+
+#div1_2 li {
+    font-family: 'fourthfont';
+    list-style-type: none;
+
+}
+
+
+#div2_1 {
+    clear: left;
+    float: left;
+}
+
+#div2_1 h4 {
+    font-family: 'firstfont';
+    color: black;
+    font-size: 30px;
+    padding-left: 30px;
+
+
+}
+
+#div2_1 li {
+    font-family: 'fourthfont';
+    list-style: none;
+
+}
+
+#div2_2 {
+    float: right;
+}
+
+
+/* #five h4 {
+
+   
+} */
+
+
+
+
+
+/* #div1_1 {
+    float: left;
+} */
+
+/* #div2_1 {
+
+    float: left;
+} */

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'firstfont';
+    src: url('../font/Akaya_Telivigala/AkayaTelivigala-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'secondfont';
+    src: url('../font/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: italic;
+    color: brown;
+    text-decoration: underline dashed rebeccapurple;
+}
+
+p {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: rebeccapurple;
+
+    text-align: left;
+    /*  to use  responsive in phone(left=start) */
+    text-align: start;
+
+    text-align: right;
+    /*  to use  responsive in phone(right=end) */
+    text-align: end;
+    text-align: justify;
+
+    text-indent: 50%;
+}
+
+h2 {
+    font-family: 'firstfont';
+    text-decoration: underline yellow;
+}
+
+h1 {
+    font-family: 'secondfont';
+    text-transform: lowercase;
+}
+
+div {
+    background-color: teal
+}
+
+h4 {
+    color: orange;
+    text-transform: uppercase;
+
+    letter-spacing: 5px;
+}
+
+a {
+    color: white;
+    font-style: italic;
+
+
+}

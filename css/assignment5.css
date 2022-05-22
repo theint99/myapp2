@@ -1,0 +1,41 @@
+span {
+    font-size: xx-large;
+    color: rgb(22, 172, 237);
+}
+
+hr {
+    width: 50px;
+    margin-left: 0px;
+    color: rgb(22, 172, 237);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div>p {
+    color: indigo;
+}
+
+p {
+    color: orangered;
+}
+
+span {
+    color: yellowgreen;
+    font-size: 20px;
+}
+
+h3 {
+    color: orange;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    color: navy;
+}
